@@ -18,7 +18,7 @@ public class Mover : MonoBehaviour
         Rigidbody2D rb2d= GetComponent<Rigidbody2D>();
 
         rb2d.AddForce(
-            new Vector2(0, 5),
+            new Vector2(-5, 2),
             ForceMode2D.Impulse
         );
     }
